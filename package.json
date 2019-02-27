@@ -1,0 +1,29 @@
+{
+  "name": "vk-ads-bid-manager",
+  "version": "1.0.0",
+  "description": "Controls VK ad rates for optimal use within the daily budget",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnqq/vk-ads-bid-manager.git"
+  },
+  "keywords": [
+    "vk",
+    "vk-script",
+    "vk-ads"
+  ],
+  "author": "nnqq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnqq/vk-ads-bid-manager/issues"
+  },
+  "homepage": "https://github.com/nnqq/vk-ads-bid-manager",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
