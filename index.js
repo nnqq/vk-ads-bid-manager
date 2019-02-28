@@ -12,7 +12,7 @@ class VkAdsBidManager extends VkApi {
     this._timerId = null;
   }
 
-  start() {
+  async start() {
     const intervalsInDay = 864e5 / this.updateInterval;
     const intervalMaxBudget = this.dailyBudget / intervalsInDay;
 
@@ -70,7 +70,7 @@ class VkAdsBidManager extends VkApi {
       }
     };
 
-    watcher();
+    await watcher();
     this._timerId = setInterval(async () => {
       await watcher();
     }, this.updateInterval);
