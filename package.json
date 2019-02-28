@@ -1,6 +1,6 @@
 {
   "name": "vk-ads-bid-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Controls VK ad rates for optimal use within the daily budget",
   "main": "index.js",
   "repository": {
