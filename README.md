@@ -63,3 +63,7 @@ Starts bid-manager watcher
 
 #### .stop()
 Stops bid-manager watcher
+
+## Contact author
+
+[Telegram](https://t.me/aveDenis)
